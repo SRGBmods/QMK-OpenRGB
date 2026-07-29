@@ -16,8 +16,18 @@
 
  #pragma once
 
+ #define GMMK3_P65_LOGO_LED
  /* Driver LED totals (different for each board)*/
+ //#define DRIVER_1_LED_TOTAL (54)
+ //#define DRIVER_2_LED_TOTAL (32)
+
  #define DRIVER_1_LED_TOTAL (54)
- #define DRIVER_2_LED_TOTAL (32)
+ 
+ #ifdef GMMK3_P65_LOGO_LED
+ #    define DRIVER_2_LED_TOTAL (33)
+ #else
+ #    define DRIVER_2_LED_TOTAL (32)
+ #endif
+ 
  #define RGB_MATRIX_LED_COUNT (DRIVER_1_LED_TOTAL + DRIVER_2_LED_TOTAL)
  #define DRIVER_LED_TOTAL (DRIVER_1_LED_TOTAL + DRIVER_2_LED_TOTAL)
