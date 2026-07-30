@@ -12,7 +12,7 @@
         "tap_keycode_delay": 10
     },
     "bootmagic": {
-        "matrix": [1, 3]    // Enter Bootloader mode via ESC
+        "matrix": [1, 6]    // Enter Bootloader mode via ESC
     },
     "matrix_pins": {
         "cols": ["A0", "A1", "A2", "A3", "A4", "C1", "C2", "C3"],
@@ -36,7 +36,7 @@
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"label": "Esc", "matrix": [1, 3], "x": 0, "y": 0},
+                {"label": "Esc", "matrix": [1, 6], "x": 0, "y": 0},
                 {"label": "1",   "matrix": [1, 7], "x": 1, "y": 0},
                 {"label": "2",   "matrix": [2, 7], "x": 2, "y": 0},
                 {"label": "3",   "matrix": [3, 7], "x": 3, "y": 0},
@@ -44,7 +44,7 @@
                 {"label": "5",   "matrix": [4, 6], "x": 5, "y": 0},
                 {"label": "6",   "matrix": [5, 6], "x": 6, "y": 0},
                 {"label": "7",   "matrix": [5, 7], "x": 7, "y": 0},
-                {"label": "8",   "matrix": [6, 7], "x": 8, "y": 0}, 
+                {"label": "8",   "matrix": [6, 7], "x": 8, "y": 0},
                 {"label": "9",   "matrix": [7, 7], "x": 9, "y": 0},
                 {"label": "0",   "matrix": [8, 7], "x": 10, "y": 0},
                 {"label": "-",   "matrix": [8, 6], "x": 11, "y": 0},
@@ -80,7 +80,7 @@
                 {"label": ";",   "matrix": [8, 2], "x": 10.75, "y": 2},
                 {"label": "'",   "matrix": [8, 3], "x": 11.75, "y": 2},
                 {"label": "Enter", "matrix": [10, 4], "x": 12.75, "y": 2, "w": 2.25},
-                {"label": "PgD", "matrix": [2, 5], "x": 15, "y": 2},
+                {"label": "PgU", "matrix": [1, 5], "x": 15, "y": 2},
 
                 {"label": "LShft", "matrix": [0, 0], "x": 0, "y": 3, "w": 2.25},
                 {"label": "Z",   "matrix": [1, 4], "x": 2.25, "y": 3},
@@ -95,7 +95,7 @@
                 {"label": "/",   "matrix": [8, 5], "x": 11.25, "y": 3},
                 {"label": "RShft", "matrix": [9, 1], "x": 12.25, "y": 3, "w": 1.75},
                 {"label": "Up",  "matrix": [3, 5], "x": 14, "y": 3},
-                {"label": "End", "matrix": [12, 6], "x": 15, "y": 3},
+                {"label": "End", "matrix": [2, 5], "x": 15, "y": 3},
 
                 {"label": "LCtr", "matrix": [0, 6], "x": 0, "y": 4, "w": 1.25},
                 {"label": "LWin", "matrix": [9, 0], "x": 1.25, "y": 4, "w": 1.25},
